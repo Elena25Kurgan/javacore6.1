@@ -9,6 +9,10 @@ public class PhoneBook {
         group = new HashMap<>();
     }
 
+    public int numContacts () {
+        return contacts.size();
+    }
+
     public void add(String nameGroup, Contact contact) {
         contacts.add(contact);
         List<Contact> groupContacts = group.get(nameGroup);
