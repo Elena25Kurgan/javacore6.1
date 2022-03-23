@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class testPhoneBook {
+public class TestPhoneBook {
     static final String family = "Семья";
     static final String friends = "Друзья";
     PhoneBook phoneBook = new PhoneBook();
